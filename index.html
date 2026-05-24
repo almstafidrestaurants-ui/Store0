@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+
+<head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 🔥 مهم جداً -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title> Almstafid store </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body >
+<!-- header -->
+<header class="header">
+
+  <div class="header-left">
+    <img src="logo.jpeg" class="logo">
+
+    <h1 class="site-title">
+      Almstafid
+    </h1>
+  </div>
+
+  <div class="menu-toggle" id="menuToggle">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+</header>
+
+  <!-- الروابط -->
+  <div class="header-links" id="mobileMenu">
+
+    <a href="#" id="homeBtn"> Home </a>
+    <a href="#hardware"> Shop </a>
+    <a href="#" id="openContact"> Contact us </a>
+    <button class="btn-outline" id="servicesBtn"> About Us </button>
+    <button id="signBtn" class="btn-button"> Sign In </button>
+  </div>
+
+<div class="search-box">
+  <input type="text" placeholder="search for products">
+</div>
+<!--============================= HERO SLIDER============================ -->
+<section class="hero-slider">
+
+  <div class="slide active">
+    <img src="images/add1.jpeg">
+  </div>
+
+  <div class="slide">
+    <img src="images/add2.jpeg">
+  </div>
+
+  <div class="slide">
+    <img src="images/add3.jpeg">
+  </div>
+<!-- الأسهم -->
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+  <!-- الدوائر -->
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+</section>
+<!--============================= CATEGORY TABS ============================-->
+<div class="category-tabs">
+
+  <button class="tab-item active" data-tab="offersTab">
+    Offers
+  </button>
+
+  <button class="tab-item" data-tab="sectionsTab">
+    Sections
+  </button>
+
+  <button class="tab-item" data-tab="clientsTab">
+    Clients
+  </button>
+
+  <button class="tab-item" data-tab="accessoriesTab">
+    Accessories
+  </button>
+
+  <button class="tab-item" data-tab="learningTab">
+    Programming courses
+  </button>
+
+</div>
+  <!-- ===============================salse store================================================================-->
+     <div class="tab-content active" id="offersTab">
+          <div class="section-light">
+<div id="offers" class="salse-container">
+    <div class="salse-header">
+    </div>
+
+    <!-- 🔥 Container واحد بس -->
+    <div class="salse-cards">
+
+              <!-- صورة الاولة-->
+  <div class="card">
+  <img class="thumb_buy"
+       src="images/Xprinter1.png"
+       onclick="openFullModal(this)"
+      data-product='[
+{
+"img":"images/laptop.png",
+"title":"برنامج المستفيد للمحاسبة",
+"price":"$100",
+"desc":"<ul class=\"hero-list\"><li>💼 برنامج محاسبة للمحلات التجارية الصغيرة</li><li>🧾 فواتير مبيعات ومشتريات</li><li>📊 أرباح يومية وتقارير مفصلة</li><li>📦 جرد جميع الأصناف</li><li>🏬 إدارة مخزون كاملة</li><li>🗂️ تعريف الأصناف بسهولة</li><li>📑 كافة أنواع التقارير</li><li>💵 دعم الدولار والليرة</li></ul>"
+}
+]' />
+  <div class="card-info-buy">
+  <div class="card-name">
+    <p>Almstafid</p>
+
+         <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+      <div class="price-box">
+        <span class="price-acc">$100</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+    </div>
+  </div>
+</div>
+   
+
+  <!-- صورة 2-->
+   <div class="card">
+  <img class="thumb_buy"
+       src="images/Xprinter1.png"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+         "img":"images/barcode-scanner.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+           "desc":"Barcode Scanner 2D LED Indicator USB BS104 ws"
+         },
+              {
+         "img":"images/caner1.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+           "desc":"Laptop Core i5th 8 / RAM 8 GB / SSD 256 GB / 15.5 IN + Mouse + Bag <br> Cash Drawer BM 101 U / SIZI 40*41 / 6 KG"
+         }
+       ]' />
+   <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+          <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+        <div class="price-box">
+  <span class="price-acc">$450</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+
+    </div>
+  </div>
+</div>
+  <!-- صورة 3-->
+<div class="card">
+  <img class="thumb_buy"
+       src="images/Xprinter1.png"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+           "img":"images/BUEROTIKA-Wireless-2.4GHz-2D-Handheld-Barcode-Scanner.webp",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner 2D LED Indicator / USB + Wireless / BS104 ws"
+       },
+         {
+           "img":"images/caner1.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Laptop Core i5 8th Gen / RAM 8 GB / SSD 256 GB | 15.5 IN + Mouse + Bag <br>Cash Drawer BM 101 U / SIZI 40*41 / 6 KG"
+         }
+       ]'
+  />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+   <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+        <div class="price-box">
+  <span class="price-acc">$480</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+         
+   
+    </div>
+  </div>
+</div>
+ <!-- صورة 4-->
+  <div class="card">
+  <img class="thumb_buy"
+       src="images/Xprinter1.png"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+                    "img":"images/PC-Cori5.png",
+              "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"PC Cori5 5th Gen, RAM 8 GB, SSD 256 GB, Screen 22, Mouse + Keyboard"
+       },
+         {
+                   "img":"images/Cash-Drawer.png",
+        "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Cash Drawer BM 101 U, Size 40*41, 6 KG"
+         },
+          {
+                 "img":"images/barcode-scanner-Recovered.png",
+                       "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner2D LED Indicator, USB BS104 ws"
+         },
+             {
+      "img":"images/BUEROTIKA-Thermal-Printer-BP108PU.webp",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Thermal Printer BP 108 PU, USB Printer + Roll 1"
+         }
+       ]' />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+<div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+        <span>Full Support</span>
+      </div>
+
+        <div class="price-box">
+   <span class="price-acc">$480</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+         
+    </div>
+  </div>
+</div>
+ <!-- صورة 5-->
+ <div class="card">
+  <img class="thumb_buy"
+       src="images/acc500.png"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+           "img":"images/PC-Cori5.png",
+             "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"PC Core i5 5th Gen, 8 GB RAM, 256 GB SSD, 22-inch screen, Mouse + Keyboard"
+       },
+         {
+           "img":"images/Cash-Drawer.png",
+               "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Cash Drawer BM 101 U, Size 40*41, 6 KG"
+         },
+                {
+                 "img":"images/BUEROTIKA-Wireless-2.4GHz-2D-Handheld-Barcode-Scanner.webp",
+                       "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner, 2D LED Indicator, USB + Wireless, BS104 ws"
+         },
+             {
+      "img":"images/BUEROTIKA-Thermal-Printer-BP108PU.webp",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Thermal Printer BP 108 PU USB Printer + Roll 1"
+         }
+       ]' />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+                  <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+      <div class="price-box">
+      <span class="price-acc">$500</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+
+    </div>
+  </div>
+</div>
+ <!-- صورة 6-->
+ <div class="card">
+  <img class="thumb_buy"
+       src="images/acc550.png"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+           "img":"images/laptop.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Laptop Core i5 8th Gen, 8GB RAM, 256GB SSD, 15.5 IN + Mouse + Bag"
+       },
+           {
+           "img":"images/Cash-Drawer.png",
+               "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Cash Drawer BM 101 U, Size 40*41, 6 KG"
+         },
+                {
+                 "img":"images/BUEROTIKA-Wireless-2.4GHz-2D-Handheld-Barcode-Scanner.webp",
+                       "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner, 2D LED Indicator, USB + Wireless, BS104 ws"
+         },
+             {
+      "img":"images/BUEROTIKA-Thermal-Printer-BP108PU.webp",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Thermal Printer BP 108 PU USB Printer + Roll 1"
+         }
+       ]'  />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+      <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+      <div class="price-box">
+         <span class="price-acc">$550</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+         
+    </div>
+  </div>
+</div>
+ <!-- صورة 7-->
+ <div class="card">
+  <img class="thumb_buy"
+       src="images/acc620.png"
+       onclick="openFullModal(this)"
+     data-product='[
+         {
+           "img":"images/laptop.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Laptop Core i5 8th Gen, 8GB RAM, 256GB SSD, 15.5 Screen, Mouse, Bag"
+       },
+           {
+           "img":"images/Cash-Drawer.png",
+               "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Cash Drawer BM 101 U, 40*41 cm, 6 kg"
+         },
+                {
+                 "img":"images/BUEROTIKA-Wireless-2.4GHz-2D-Handheld-Barcode-Scanner.webp",
+                       "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner, 2D LED Indicator, USB + Wireless, BS104 ws"
+         },
+             {
+      "img":"images/Xprinter1.png",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Xprinter Lab BP 108 PU USB Printer Label + Roll 5"
+         },
+                  {
+      "img":"images/BUEROTIKA-Thermal-Printer-BP108PU.webp",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Thermal Printer BP 108 PU USB Printer + Roll 5"
+         }
+       ]'  />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+          <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+      <div class="price-box">
+      <span class="price-acc">$620</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+
+    </div>
+  </div>
+</div>
+ <!-- صورة 8-->
+  <div class="card">
+  <img class="thumb_buy"
+       src="images/acc850.png"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+           "img":"images/laptop.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Laptop Core i5 8th Gen, 8GB RAM, 256GB SSD, 15.5 Screen, Mouse, Bag"
+       },
+           {
+           "img":"images/Cash-Drawer.png",
+               "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Cash Drawer BM 101 U, Size 40*41, 6 kg"
+         },
+                      {
+      "img":"images/Balance.png",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Balance 30 kg: Barcode and Invoice Scale + Roll 5"
+         },
+                      {
+      "img":"images/BUEROTIKA-Thermal-Printer-BP108PU.webp",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Thermal Printer BP 108 PU USB Printer + Roll 5"
+         },
+             {
+                 "img":"images/BUEROTIKA-Wireless-2.4GHz-2D-Handheld-Barcode-Scanner.webp",
+                       "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner, 2D LED Indicator, USB + Wireless BS104 ws"
+         }
+       ]'  />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+            <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+      <div class="price-box">
+        <span class="price-acc">$850</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+
+    </div>
+  </div>
+</div>
+ <!-- صورة 9-->
+  <div class="card">
+  <img class="thumb_buy"
+       src="images/acc899.png"
+       onclick="openFullModal(this)"
+       data-product='[
+        {
+           "img":"images/laptop.png",
+           "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Laptop Core i5 8th Gen, 8GB RAM, 256GB SSD, 15.5 Screen, Mouse, Bag"
+       },
+           {
+           "img":"images/Cash-Drawer.png",
+               "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Cash Drawer BM 101 U, Size 40*41, 6 kg"
+         },
+                      {
+      "img":"images/Balance.png",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Balance 30 kg: Barcode and Invoice Scale + Roll 5"
+         },
+                      {
+      "img":"images/BUEROTIKA-Thermal-Printer-BP108PU.webp",
+         "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Thermal Printer BP 108 PU USB Printer + Roll 5"
+         },
+             {
+                 "img":"images/barcode-USB.png",
+                       "title":"برنامج محاسبة كامل يناسب جميع المحلات والشركات التجارية",
+           "subtitle":"البيع بسعر المفرق / البيع بسعر الجملة / البيع بسعر جملة الجملة",
+           "price":"",
+            "desc":"Barcode Scanner, 2D LED Indicator, USB BS105 ws"
+         }
+       ]'
+  />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+
+          <div class="specs">
+        <span>Accounting Software</span>
+        <span>Cloud System</span>
+      </div>
+
+      <div class="price-box">
+    <span class="price-acc">$899</span>
+      </div>
+
+      <a href="https://wa.me/96181390018"
+         target="_blank" class="whatsapp-card-btn">
+         <i class="fa-brands fa-whatsapp"></i> WhatsApp </a>
+
+    </div>
+  </div>
+</div>
+ 
+
+
+ </div>
+</div>    
+<!--===================================== لوحة الاتصال الجديد ========================================================-->
+<div class="contact-modal">
+  <div class="contact-content">
+    <span class="close-btn">&times;</span>
+    <h2> Contact us </h2>
+    <div class="social-links">
+
+     <a href="https://wa.me/96181390018" target="_blank" class="whatsapp">
+<img src="images/whatsapp_logo_icon_.png" width="30px" class="icon">
+  <span>WhatsApp 1</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+<a href="https://wa.me/96171918022" target="_blank" class="whatsapp">
+<img src="images/whatsapp_logo_icon_.png" width="30px" class="icon">
+  <span>WhatsApp 2</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+<a href="https://www.facebook.com/share/1LB7mhY8xF/" target="_blank" class="facebook">
+<img src="images/facebook_logo_icon_.png" width="30px" class="icon">
+  <span>Facebook</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+<a href="https://m.me/Almstafid" target="_blank" class="messenger">
+<img src="images/messenger_message.png" width="30px" class="icon">
+  <span>Messenger</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+<a href="https://www.instagram.com/almstafid?igsh=MXZpeWZmOGVyaHB6ZQ==" target="_blank" class="instagram">
+<img src="images/instagram.png" width="30px" class="icon">
+  <span>Instagram</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+<a href="https://www.tiktok.com/@almstafidprograms?_r=1&_t=ZS-95xyKgwCFaU" target="_blank" class="tiktok">
+<img src="images/tiktok_logo_icon.png" width="30px" class="icon">
+  <span>TikTok</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+<a href="https://youtube.com/@almstafidbusiness?si=ZcnnO6UM1_Op4yVx" target="_blank" class="youtube">
+<img src="images/youtube.png" width="30px" class="icon">
+  <span>YouTube</span>
+  <i class="arrow">&gt;</i>
+</a>
+
+    </div>
+  </div>
+</div>
+<!-- نافذة Sign in -->
+
+<div id="signModal" class="button-modal">
+  <div class="button-modal-content">
+
+    <!-- زر الإغلاق -->
+    <span id="closeSign_button">&times;</span>
+    <h2>Sign In</h2>
+    
+<form id="loginForm">
+
+
+  <div class="input-group">
+  <i class="fa-regular fa-envelope icon"></i>
+<input type="email" id="email" placeholder="Your Email">
+</div>
+     
+  <div class="password-box">
+  <input type="password" id="password" placeholder="Enter Password">
+  <span id="togglePassword">👁️</span>
+</div>
+
+    <button class="button-login-btn"> Login </button>
+
+</form>
+  </div>
+</div>
+
+<!-- صور لي بقلب الكارد -->
+<div id="fullModal" class="full-modal">
+
+ <span class="close-full" onclick="closeFullModal()">&times;</span>
+
+  <div class="full-content">
+
+    <!-- الصور -->
+    <div class="left-side">
+      <img id="mainImage" class="main-img">
+
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+
+    <!-- التفاصيل -->
+    <div class="right-side">
+      <h2 id="productTitle"></h2>
+
+      <p class="price" id="productPrice"></p>
+
+      <p class="desc" id="productDesc"></p>
+
+      <a id="whatsappBtn" target="_blank" class="whatsapp-btn">
+        تواصل واتسأب
+      </a>
+  </div>
+
+    </div>
+
+  </div>
+</div>
+<!--==========================================================خدماتنا Modal================================================================ -->
+<div id="servicesModal" class="full-modal">
+
+  <span class="close-full" onclick="closeServicesModal()">&times;</span>
+
+  <div class="full-content">
+
+
+<div class="services">
+  <h1> Our services </h1>
+  <p class="services-desc"> We offer a comprehensive range of technical services: </p>
+
+  <!-- خدمة 1 -->
+ <div class="service-item">
+  <img src="images/add2.jpeg" onclick="goToSection('hardware')">
+  <div class="text">
+    <h2>Installing integrated accounting software</h2>
+
+    <p>
+      We offer professional installation and setup services for modern accounting software, helping you manage your business with ease and accuracy.
+    </p>
+
+    <p>
+      The service includes invoicing, inventory management, barcode and printer integration, electronic scale integration, training, and ongoing technical support.
+    </p>
+
+    <ul>
+      <li> Sales and Purchase Management</li>
+      <li>Professional Barcode and Invoicing System</li>
+      <li> Accurate Inventory Tracking</li>
+      <li> Daily and Monthly Reports and Profits</li>
+      <li> Cash Drawer, Printer, and Scale Integration</li>
+      <li> Ongoing Technical Support and Follow-up</li>
+    </ul>
+
+  </div>
+</div>
+
+  <!-- خدمة 2 -->
+ <div class="service-item">
+    <img src="images/add3.jpeg" onclick="goToSection('store')">
+  <div class="text">
+      <h2>Teaching and explaining the Almstafid accounting program </h2>
+
+      <p>
+       We offer practical tutorials and lessons to help you learn to use accounting software easily and professionally, step by step.
+</p>
+
+          <p>
+We don't just provide accounting software; we also help you learn how to use it practically and easily.
+               </p>
+                       
+    <p>                      
+Through detailed tutorials and live lessons on our YouTube channel, you can learn to manage invoices, sales, purchases, inventory, and profits professionally, even if you're a beginner.
+           </p>
+                 
+   <p>
+   We aim to provide a comprehensive experience that combines software, training, and ongoing support, enabling you to manage your business confidently and easily.
+</p>
+
+<ul>
+      <li> Professional video tutorials </li>
+      <li> Step-by-step tutorials for beginners</li>
+      <li> Practical application of the software</li>
+      <li> Ongoing support and follow-up</li>
+      <li> Learn sales and inventory management</li>
+      <li> Educational content on YouTube</li>
+    </ul>
+       
+    </div>
+  </div>
+
+  <!-- خدمة 3 -->
+<div class="service-item">
+       <img src="images/add1.jpeg" onclick="goToSection('store')">
+  <div class="text">
+      <h2> Accounting software programming and development </h2>
+
+      <p>
+      We develop professional accounting software tailored to the needs of shops and businesses, designed for ease of use and high accuracy.
+          </p>
+                  <p>
+We offer programming and development services for modern accounting software that meets your specific business requirements. We design user-friendly systems that efficiently manage sales, inventory, invoices, and profits.
+                     </p>
+                              <p>
+We provide practical and fast solutions with integrated systems that can connect barcodes, printers, cash drawers, and electronic scales, helping you organize and grow your business.
+                                  </p>
+
+<ul>
+      <li> Professional Accounting Software Design</li>
+      <li> Sales and Inventory Management</li>
+      <li> Integrated Invoicing and Barcode System</li>
+      <li> Accurate Reports and Profits</li>
+      <li> Fast and Secure Performance</li>
+      <li> Ongoing Technical Support and Updates</li>
+    </ul>
+                                         
+    </div>
+  </div>
+  <!-- خدمة 4 -->
+<div class="service-item">
+          <img src="images/add4.jpeg" onclick="goToSection('store')">
+  <div class="text">
+         <h2> Sale of technical devices and equipment </h2>
+
+      <p>
+           We provide the latest technological devices and equipment to help you develop your business and professionally equip your project.From laptops and computers to point-of-sale systems, printers, barcode scanners, and cameras.
+  </p>
+          <p>
+ We are committed to providing high-quality products suitable for various commercial and office uses, with the ability to provide complete equipment solutions for shops and companies in a comprehensive and practical manner.
+               </p>
+
+         <ul>
+      <li> Laptops and computers</li>
+      <li> Printers and barcode scanners</li>
+      <li> Security cameras</li>
+      <li> Monitors and accessories</li>
+      <li> Cash drawers and point-of-sale systems</li>
+      <li> Devices suitable for shops and companies</li>
+    </ul>            
+
+    </div>
+  </div>
+
+
+</div>
+  </div>
+</div>
+<!--==================================== Sections Modal للاقسام =================================================-->
+<div class="tab-content" id="sectionsTab">
+
+  <!-- المحتوى -->
+  <div class="gallery-grid">
+
+    <div class="gallery-card">
+     <img src="images/super.jpeg" loading="lazy">
+  <h2>Super Market</h2>
+</div>
+
+    <div class="gallery-card">
+      <img src="images/cofe.jpeg" loading="lazy">
+      <h2>Roasters</h2>
+    </div>
+
+   <div class="gallery-card">
+      <img src="images/1$.jpeg" loading="lazy">
+      <h2> Household Appliances </h2>
+    </div>
+
+   <div class="gallery-card">
+      <img src="images/ice.jpeg" loading="lazy">
+      <h2> Icecream </h2>
+    </div>
+
+
+   <div class="gallery-card">
+      <img src="images/minimarket.jpeg" loading="lazy">
+      <h2> Mini Market </h2>
+    </div>
+
+
+   <div class="gallery-card">
+      <img src="images/rest.jpeg" loading="lazy">
+      <h2> Restaurants </h2>
+    </div>
+
+   <div class="gallery-card">
+      <img src="images/sweet.jpeg" loading="lazy">
+      <h2> Pastry </h2>
+    </div>
+
+ <div class="gallery-card">
+      <img src="images/gim.jpeg" loading="lazy">
+      <h2> Gym </h2>
+    </div>
+
+     <div class="gallery-card">
+      <img src="images/car.jpeg" loading="lazy">
+      <h2> car wheels </h2>
+    </div>
+
+
+  </div>
+
+</div>
+<!--==================================== Clients Modal  =================================================-->
+     <div class="tab-content" id="clientsTab">
+
+  <div class="salse-container">
+    <h1>Clients</h1>
+  </div>
+
+</div>
+          
+          <!-- ============================================== salse Hardware ============================================================== -->
+       <div class="section-light">
+            <div class="tab-content" id="accessoriesTab">
+    <div class="salse-header">
+      <h1>إكسسوارات</h1>
+      <button class="btn-button"> المزيد </button>
+    </div>
+
+    <!-- 🔥 Container واحد بس -->
+    <div class="salse-cards">
+
+      <!-- صورة 1 -->
+     <div class="card">
+  <img class="thumb_buy"
+       src="images/add1.jpeg"
+       onclick="openFullModal(this)"
+       data-product='[
+         {
+           "img":"images/add1.jpeg",
+           "title":"Gaming Set",
+           "price":"$400",
+            "desc":"يارب وفقني لما تحب وترضا"
+       },
+         {
+           "img":"images/add1.jpeg",
+           "title":"Office Set",
+           "price":"$200",
+            "desc":"Laptop Core i5 8th Gen, 8GB RAM, 256GB SSD, 15.5 Screen + Mouse + Bag  Laptop Core i5 8th Gen, 8GB RAM, 256GB SSD, 15.5 Screen + Mouse + Bag "
+         }
+       ]'
+  />
+  <div class="card-info-buy">
+    <div class="card-name">
+      <p>Almstafid</p>
+      <h3>Almstafid Programming</h3>
+    </div>
+  </div>
+</div>
+
+     
+    </div>
+  </div>
+</div>
+</div>
+<!--================= Programming Education  ====================================-->
+
+<div class="section-light">
+ <div class="tab-content" id="learningTab">
+      <span>almstafid</span>
+    <div class="salse-header">
+            <h1>Programming Education</h1>
+        <button class="btn-button">View All</button>
+    </div>
+   
+    <div class="salse-cards">
+
+      <!-- كارد 1 -->
+      <div class="card">
+        <img class="thumb_buy"
+          src="images/internet.jpeg"
+          onclick="openCourseModal(this)"
+          data-course='[
+            {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+               {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"}
+          ]'
+        />
+
+        <div class="card-info-buy">
+          <h3>HTML Course</h3>
+        </div>
+      </div>
+
+      <!-- كارد 2 -->
+      <div class="card">
+        <img class="thumb_buy"
+          src="images/internet.jpeg"
+          onclick="openCourseModal(this)"
+          data-course='[
+           {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+               {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"}
+          ]'
+        />
+
+        <div class="card-info-buy">
+          <h3>CSS Course</h3>
+        </div>
+      </div>
+ <!-- كارد 3 -->
+      <div class="card">
+        <img class="thumb_buy"
+          src="images/internet.jpeg"
+          onclick="openCourseModal(this)"
+          data-course='[
+            {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+             {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+               {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"}
+          ]'
+        />
+
+        <div class="card-info-buy">
+          <h3>HTML Course</h3>
+        </div>
+      </div>
+ <!-- كارد 4 -->
+      <div class="card">
+        <img class="thumb_buy"
+          src="images/internet.jpeg"
+          onclick="openCourseModal(this)"
+          data-course='[
+            {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+             {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+               {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+             {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+               {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"},
+              {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"}
+          ]'
+        />
+
+        <div class="card-info-buy">
+          <h3>HTML Course</h3>
+        </div>
+      </div>
+ <!-- كارد 5 -->
+      <div class="card">
+        <img class="thumb_buy"
+          src="images/internet.jpeg"
+          onclick="openCourseModal(this)"
+          data-course='[
+            {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"}
+          ]'
+        />
+
+        <div class="card-info-buy">
+          <h3>HTML Course</h3>
+        </div>
+      </div>
+ <!-- كارد 6 -->
+      <div class="card">
+        <img class="thumb_buy"
+          src="images/internet.jpeg"
+          onclick="openCourseModal(this)"
+          data-course='[
+            {"img":"images/internet.jpeg","title":"HTML Basics","desc":"تعلم أساسيات HTML","video":"https://youtu.be/ZMizpQS7FbY"},
+            {"img":"images/internet.jpeg","title":"HTML Forms","desc":"شرح الفورمز","video":"https://youtu.be/ZMizpQS7FbY"}
+          ]'
+        />
+
+        <div class="card-info-buy">
+          <h3>HTML Course</h3>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+<!--================= Course Modal =================-->
+<div id="courseModal" class="course-modal">
+
+  <span class="close-full" onclick="closeCourseModal()">×</span>
+
+  <div class="course-content">
+
+    <h2 id="courseTitle">Course</h2>
+
+    <div id="courseList"></div>
+
+  </div>
+</div>
+
+<!--============================================================================== -->
+
+
+
+
+     <script src="Script.js"></script>
+   </body>
