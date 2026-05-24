@@ -375,35 +375,42 @@ if(slides.length > 0){
   }, 3000);
 
 }
-/* ================= REAL APP TABS ================= */
+/* ================= NEW TABS ================= */
 
-const tabs = document.querySelectorAll(".tab-item");
+document.addEventListener("DOMContentLoaded", () => {
 
-const tabContents = document.querySelectorAll(".tab-content");
+  const tabs = document.querySelectorAll(".tab-item");
 
-tabs.forEach(tab => {
+  tabs.forEach(tab => {
 
-  tab.addEventListener("click", () => {
+    tab.addEventListener("click", () => {
 
-    // remove active
-    tabs.forEach(item =>
-      item.classList.remove("active")
-    );
+      // remove active from buttons
+      tabs.forEach(btn => {
+        btn.classList.remove("active");
+      });
 
-    tabContents.forEach(content =>
-      content.classList.remove("active")
-    );
+      // hide all tabs
+      document.querySelectorAll(".tab-content").forEach(content => {
+        content.style.display = "none";
+      });
 
-    // active current
-    tab.classList.add("active");
+      // activate current button
+      tab.classList.add("active");
 
-    const target =
-      document.getElementById(tab.dataset.tab);
+      // show target
+      const targetId = tab.getAttribute("data-tab");
 
-    if(target){
-      target.classList.add("active");
-    }
+      const target = document.getElementById(targetId);
+
+      if(target){
+        target.style.display = "block";
+      }
+
+    });
 
   });
+
+});
 
 });
