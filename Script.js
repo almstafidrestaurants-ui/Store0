@@ -375,39 +375,33 @@ if(slides.length > 0){
   }, 3000);
 
 }
-/* ================= NEW TABS ================= */
 
-document.addEventListener("DOMContentLoaded", () => {
+/* ================= REAL APP TABS ================= */
 
-  const tabs = document.querySelectorAll(".tab-item");
+const tabs = document.querySelectorAll(".tab-item");
 
-  tabs.forEach(tab => {
+const tabContents = document.querySelectorAll(".tab-content");
 
-    tab.addEventListener("click", () => {
+tabs.forEach(tab => {
 
-      // remove active from buttons
-      tabs.forEach(btn => {
-        btn.classList.remove("active");
-      });
+  tab.addEventListener("click", () => {
 
-      // hide all tabs
-      document.querySelectorAll(".tab-content").forEach(content => {
-        content.style.display = "none";
-      });
+    tabs.forEach(item =>
+      item.classList.remove("active")
+    );
 
-      // activate current button
-      tab.classList.add("active");
+    tabContents.forEach(content =>
+      content.classList.remove("active")
+    );
 
-      // show target
-      const targetId = tab.getAttribute("data-tab");
+    tab.classList.add("active");
 
-      const target = document.getElementById(targetId);
+    const target =
+      document.getElementById(tab.dataset.tab);
 
-      if(target){
-        target.style.display = "block";
-      }
-
-    });
+    if(target){
+      target.classList.add("active");
+    }
 
   });
 
