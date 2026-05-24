@@ -252,26 +252,7 @@ function closeCourseModal() {
   document.getElementById("courseModal").style.display = "none";
 }
 
-/*=========================================================== sections-modal==================================================================*/
-document.addEventListener("DOMContentLoaded", () => {
 
-  const openGallery = document.getElementById("openGallery");
-  const galleryModal = document.getElementById("galleryModal");
-
-  if (openGallery && galleryModal) {
-
-    openGallery.addEventListener("click", (e) => {
-      e.preventDefault();
-
-galleryModal.classList.toggle("show");
-    });
-
-    // 👇 بدل querySelector
-    document.addEventListener("click", (e) => {
-
-    });
-  }
-});
 /* =================  رأس صفحة للتلفون ================= */
 
 const menuToggle = document.getElementById("menuToggle");
